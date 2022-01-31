@@ -1,0 +1,111 @@
+/*Setting initial */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*Product in sell */
+.articolo {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+/*Image's article*/
+.img-article {
+  background-image: url("../img/1.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Sustainbility of the product */
+.sustain {
+  background-color: hsl(160deg 100% 26%);
+  color: white;
+  font-size: 10px;
+}
+/*Relattive discount's product */
+.discount {
+  background-color: hsl(346deg 100% 46%);
+  color: white;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+/* Position of sustain and discount*/
+.img-article div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+/*Description about the product: brand, material, final price */
+.desc-article {
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+#price-discount {
+  color: red;
+}
+
+#realprice {
+  text-decoration-line: line-through;
+}
+
+/*Hover over articolo, show another image and set color heart red */
+.articolo:hover .img-article {
+  background-image: url("../img/1b.webp");
+}
+
+.articolo:hover .img-article div:first-child {
+  color: red;
+}
+
+/*Tools's debug */
+
+.debug .articolo {
+  border: 1px solid black;
+}
+
+.debug .img-article {
+  border: 1px solid violet;
+}
+
+.debug .sustain {
+  border: 1px solid green;
+}
+
+.debug .discount {
+  border: 1px solid red;
+}
+
+.debug .desc-article {
+  border: 1px solid blue;
+}
+
+.debug .img-article div:last-child {
+  border: 1px solid orange;
+}
+
+.debug .img-article div:first-child {
+  border: 1px solid cyan;
+}
