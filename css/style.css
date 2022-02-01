@@ -19,7 +19,7 @@
   margin-left: 10px;
 }
 
-/*Image's article*/
+/*Image's article 1*/
 .img-article {
   background-image: url("../img/1.webp");
   background-size: cover;
@@ -41,11 +41,119 @@
   align-items: center;
 }
 
+/*Image's article 2*/
+.img-article2 {
+  background-image: url("../img/2.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article2 div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Image's article 3*/
+.img-article3 {
+  background-image: url("../img/3.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article3 div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-article4 {
+  background-image: url("../img/4.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article4 div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-article5 {
+  background-image: url("../img/5.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article5 div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-article6 {
+  background-image: url("../img/6.webp");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+/*Heart's favourites products */
+.img-article6 div:first-child {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Sustainbility of the product */
 .sustain {
   background-color: hsl(160deg 100% 26%);
   color: white;
   font-size: 10px;
+  padding: 3px;
 }
 /*Relattive discount's product */
 .discount {
@@ -53,10 +161,36 @@
   color: white;
   margin-right: 5px;
   font-size: 10px;
+  padding: 3px;
 }
 
-/* Position of sustain and discount*/
+/* Position of sustain and discount for all articles*/
 .img-article div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+.img-article2 div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+.img-article3 div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+.img-article4 div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+.img-article5 div:last-child {
+  position: absolute;
+  bottom: 10px;
+}
+
+.img-article6 div:last-child {
   position: absolute;
   bottom: 10px;
 }
@@ -68,6 +202,7 @@
   font-size: 10px;
   position: absolute;
   bottom: 0;
+  text-align: left;
 }
 
 #price-discount {
@@ -87,8 +222,48 @@
   color: red;
 }
 
-/*Tools's debug */
+.articolo:hover .img-article2 {
+  background-image: url("../img/2b.webp");
+}
 
+.articolo:hover .img-article2 div:first-child {
+  color: red;
+}
+
+.articolo:hover .img-article3 {
+  background-image: url("../img/3b.webp");
+}
+
+.articolo:hover .img-article3 div:first-child {
+  color: red;
+}
+
+.articolo:hover .img-article4 {
+  background-image: url("../img/4b.webp");
+}
+
+.articolo:hover .img-article4 div:first-child {
+  color: red;
+}
+
+.articolo:hover .img-article5 {
+  background-image: url("../img/5b.webp");
+}
+
+.articolo:hover .img-article5 div:first-child {
+  color: red;
+}
+
+.articolo:hover .img-article6 {
+  background-image: url("../img/6b.webp");
+}
+
+.articolo:hover .img-article6 div:first-child {
+  color: red;
+}
+
+/*Tools's debug */
+/*
 .debug .articolo {
   border: 1px solid black;
 }
@@ -120,3 +295,4 @@
 .debug .first-row-article {
   border: 4px solid black;
 }
+*/
